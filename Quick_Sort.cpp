@@ -51,3 +51,5 @@ void quickSort(int x[10], int first, int last){
         quickSort(x, j+1, last);
     }
 }
+
+// End of program

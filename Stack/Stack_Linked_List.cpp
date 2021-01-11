@@ -7,7 +7,7 @@ class stacktest{
             int data; 
             struct node *next;
         }node1;
-    node1* top;
+    node1* top = NULL;
     
     void push(int ele){
         struct node *temp;
